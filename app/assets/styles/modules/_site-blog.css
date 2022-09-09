@@ -16,7 +16,7 @@
     background-color: $mainWhite;
 
     a:hover {
-        color: $mainRed;
+        color: $mainBlue;
     }
 
     h2 {

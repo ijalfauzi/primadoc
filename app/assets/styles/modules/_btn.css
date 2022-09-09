@@ -1,34 +1,34 @@
 .btn {
     background-color: #fff;
-    border:2px solid $mainRed;
+    border:2px solid $mainBlue;
     padding: .4375rem 1rem;
-    color: $mainRed;
+    color: $mainBlue;
     border-radius: 10px;
     display: inline-block;
 
     &:hover{
-        background-color: $mainRed;
+        background-color: $mainBlue;
         color: $mainWhite;
     }
 
     &--red {
-        background-color: $mainRed;
+        background-color: $mainBlue;
         color: $mainWhite;
         border: none;
 
         &:hover {
-            background-color: $mainDarkred;
+            background-color: $mainYellow;
         }
     }
 
     &--dark {
-        background-color: $mainDarkred;
+        background-color: $mainYellow;
         color: $mainWhite;
-        border-color: $mainDarkred;
+        border-color: $mainYellow;
         margin-top: 15px;
 
         &:hover {
-            background-color: $mainDarkred;
+            background-color: $mainYellow;
         }
     }
 

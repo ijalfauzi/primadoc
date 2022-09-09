@@ -2,7 +2,7 @@
     text-align: center;
 
     &__icon {
-        background-color: $mainDarkred;
+        background-color: $mainYellow;
         display: inline-block;
         width: 48px;
         height: 48px;

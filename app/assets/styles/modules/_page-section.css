@@ -6,8 +6,8 @@
     }
 
     &--red {
-        background-color: $mainRed;
+        background-color: $mainBlue;
         color: $mainWhite;
-        border-top: 5px solid $mainDarkred;
+        border-top: 5px solid $mainYellow;
     }
 }

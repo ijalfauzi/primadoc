@@ -8,7 +8,7 @@
     }
 
     strong {
-        color: $mainRed;
+        color: $mainBlue;
         font-weight: bold;
     }
 
@@ -22,7 +22,7 @@
     }
 
     &--red {
-        color: $mainRed;
+        color: $mainBlue;
     }
 
     &--capitalized {
@@ -35,7 +35,7 @@
 
     &--widget {
         font-size: 1rem;
-        background-color: $mainDarkred;
+        background-color: $mainYellow;
         padding:.75em 0;
         text-transform: uppercase;
        
