@@ -1,0 +1,66 @@
+.modal {
+    display: none;
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: $mainRed;
+    color: $mainWhite;
+    overflow: hidden;
+
+    &__inner {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 300;
+        color: $mainWhite;
+
+        @mixin atSmall {
+            font-size: 1.125rem;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.25rem;
+        color: $mainWhite;
+        transform: scaleX(1.2);
+        transform-origin: 100% 0;
+        cursor: pointer;
+        background-color: $mainDarkred;
+        padding:.2rem .5rem;
+        border-radius: 5px;
+    }
+
+    input[type=search] {
+        background: $mainDarkred;
+        border-width: 0;
+        color: $mainWhite;
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        border-radius:5px;
+
+        &:focus{
+            outline: none;
+          }
+        &::placeholder {
+            color: $mainWhite;
+            font-style: italic;
+            text-align: center;
+            font-weight: 300;
+            font-size: .875rem;
+        }
+    }
+}

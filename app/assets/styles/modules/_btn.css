@@ -1,0 +1,38 @@
+.btn {
+    background-color: #fff;
+    border:2px solid $mainRed;
+    padding: .4375rem 1rem;
+    color: $mainRed;
+    border-radius: 10px;
+    display: inline-block;
+
+    &:hover{
+        background-color: $mainRed;
+        color: $mainWhite;
+    }
+
+    &--red {
+        background-color: $mainRed;
+        color: $mainWhite;
+        border: none;
+
+        &:hover {
+            background-color: $mainDarkred;
+        }
+    }
+
+    &--dark {
+        background-color: $mainDarkred;
+        color: $mainWhite;
+        border-color: $mainDarkred;
+        margin-top: 15px;
+
+        &:hover {
+            background-color: $mainDarkred;
+        }
+    }
+
+    &--large {
+        padding: 1rem 2rem;
+    }
+}

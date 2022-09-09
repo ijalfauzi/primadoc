@@ -1,0 +1,49 @@
+.site-blog {
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content:url("https://ijalfauzi.github.io/aviat/assets/images/blog-section-background.webp");
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.post {
+    box-shadow: 0 0 25px rgba(0,0,0,.16);
+    margin: 1rem 0;
+    background-color: $mainWhite;
+
+    a:hover {
+        color: $mainRed;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+    &__thumbnail img {
+        width: 100%;
+    }
+
+    &__content {
+        padding: 2rem;
+
+    }
+
+    &__more {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    
+    /* Reduce blog section background on medium screen */
+    .site-blog::before {
+        top: 0;
+        left: -40px;
+    }
+}

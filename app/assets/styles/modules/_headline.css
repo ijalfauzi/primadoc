@@ -1,0 +1,48 @@
+.headline {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-bottom: 2em;
+
+    @mixin atSmall {
+        font-size: 1.5rem;
+    }
+
+    strong {
+        color: $mainRed;
+        font-weight: bold;
+    }
+
+    &--less-margin {
+        margin-bottom: 1.25rem;
+        margin-top: 0;
+    }
+
+    &--centered {
+        text-align: center;
+    }
+
+    &--red {
+        color: $mainRed;
+    }
+
+    &--capitalized {
+        text-transform: capitalize;
+    }
+
+    &--cta {
+        margin: 2rem 0 0;
+    }
+
+    &--widget {
+        font-size: 1rem;
+        background-color: $mainDarkred;
+        padding:.75em 0;
+        text-transform: uppercase;
+       
+        @mixin atMedium {
+            font-size: 1.17rem;
+            padding: inherit;
+            background-color: transparent;
+        }
+    }
+}
