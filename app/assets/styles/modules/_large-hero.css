@@ -1,15 +1,9 @@
 .large-hero {
     position: relative;
+    background-image: linear-gradient(180deg, $mainDarkBlue 50%, $mainLightBlue 100%);
 
     @mixin atSmall {
     padding: 6.5rem 0;
-    }
-
-    &::before {
-        position: absolute;
-        content:url(https://ijalfauzi.github.io/aviat/assets/images/hero-section-background.webp);
-        top: 0;
-        left: 0;
     }
 
     &__image {
@@ -41,6 +35,7 @@
         text-align: center;
         font-weight: bold;
         margin-top: 2.5rem;
+        color: $mainLightBlue;
 
         @mixin atSmall {
             font-size: 1.875rem;
@@ -56,6 +51,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1.25rem;
+        color: $mainGrey;
 
         @mixin atSmall {
             font-size: 1.25rem;

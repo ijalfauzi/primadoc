@@ -17,15 +17,25 @@
         border: none;
 
         &:hover {
-            background-color: $mainYellow;
+            background-color: $mainDarkBlue;
         }
     }
 
     &--dark {
-        background-color: $mainYellow;
+        background-color: $mainDarkBlue;
         color: $mainWhite;
-        border-color: $mainYellow;
+        border-color: $mainDarkBlue;
         margin-top: 15px;
+
+        &:hover {
+            background-color: $mainDarkBlue;
+        }
+    }
+
+    &--yellow {
+        background-color: $mainYellow;
+        border: none;
+        border: 2px solid $mainYellow;
 
         &:hover {
             background-color: $mainYellow;
@@ -35,4 +45,8 @@
     &--large {
         padding: 1rem 2rem;
     }
+}
+
+a.btn--yellow {
+    color: $mainDarkBlue!important;
 }
