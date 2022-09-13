@@ -29,6 +29,7 @@
   .clients {
     position: relative;
     height: 272px;
+    overflow: hidden;
   }
   
   .clients > img {
@@ -39,7 +40,7 @@
     animation: display 25s infinite;
 
     @mixin atSmall {
-        left: calc(50% - 390px);
+        left: calc(50% - 340px);
     }
   }
   
