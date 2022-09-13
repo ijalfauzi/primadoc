@@ -49,4 +49,9 @@
 
 a.btn--yellow {
     color: $mainDarkBlue!important;
+
+    &:hover {
+        background-color: $mainDarkYellow;
+        border-color: $mainDarkYellow;
+    }
 }
