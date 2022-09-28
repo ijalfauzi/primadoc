@@ -11,7 +11,7 @@
     }
 
     &:hover {
-        border-color: $mainBlue;
+        border-color: $primary;
         transition: all .35s ease-out;
     }
 

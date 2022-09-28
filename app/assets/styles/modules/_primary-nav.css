@@ -45,7 +45,7 @@
   }
   .item:not(.button) a:hover,
   .item a:hover::after {
-    color: $mainGrey;
+    color: $grey;
   }
 
   li.button a {
@@ -59,7 +59,7 @@
     align-items: center;
   }
   .menu li a {
-    color: $mainGrey;
+    color: $grey;
     display: block;
     padding: .9375rem .3125rem;
     text-transform: uppercase;
@@ -74,8 +74,8 @@
     }
 
     &:hover {
-      color: $mainWhite;
-      background-color: $mainBlue;
+      color: $white;
+      background-color: $primary;
     }
   }
   .toggle {
@@ -99,7 +99,7 @@
   }
   .button.secondary {
     /* divider between buttons and menu links */
-    border-bottom: 1px $mainGrey solid;
+    border-bottom: 1px $grey solid;
     padding-bottom: 1.25rem;
     margin-top: 1.25rem;
 
@@ -183,7 +183,7 @@
       left:0;
       top: 94px;
       background: #eeeeee;
-      border-top: 4px solid $mainBlue;
+      border-top: 4px solid $primary;
       z-index: 999;
     }
     .toggle {
@@ -198,5 +198,5 @@
 .toggle a {
   text-transform: lowercase!important;
   font-size: 1.5rem;
-  color: $mainBlue;
+  color: $primary;
 }

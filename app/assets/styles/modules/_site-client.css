@@ -1,6 +1,6 @@
 .site-client {
     text-align: center;
-    background-color:$mainGrey;
+    background-color:$grey;
 }
 
 @keyframes display {

@@ -1,44 +1,44 @@
 .btn {
     background-color: #fff;
-    border:2px solid $mainBlue;
+    border:2px solid $primary;
     padding: .4375rem 1rem;
-    color: $mainBlue;
+    color: $primary;
     border-radius: 10px;
     display: inline-block;
 
     &:hover{
-        background-color: $mainBlue;
-        color: $mainWhite;
+        background-color: $primary;
+        color: $white;
     }
 
     &--red {
-        background-color: $mainBlue;
-        color: $mainWhite;
+        background-color: $primary;
+        color: $white;
         border: none;
 
         &:hover {
-            background-color: $mainDarkBlue;
+            background-color: $primaryDark;
         }
     }
 
     &--dark {
-        background-color: $mainDarkBlue;
-        color: $mainWhite;
-        border-color: $mainDarkBlue;
+        background-color: $primaryDark;
+        color: $white;
+        border-color: $primaryDark;
         margin-top: 15px;
 
         &:hover {
-            background-color: $mainDarkBlue;
+            background-color: $primaryDark;
         }
     }
 
     &--yellow {
-        background-color: $mainYellow;
+        background-color: $secondary;
         border: none;
-        border: 2px solid $mainYellow;
+        border: 2px solid $secondary;
 
         &:hover {
-            background-color: $mainYellow;
+            background-color: $secondary;
         }
     }
 
@@ -48,10 +48,10 @@
 }
 
 a.btn--yellow {
-    color: $mainDarkBlue!important;
+    color: $primaryDark!important;
 
     &:hover {
-        background-color: $mainDarkYellow;
-        border-color: $mainDarkYellow;
+        background-color: $secondaryDark;
+        border-color: $secondaryDark;
     }
 }

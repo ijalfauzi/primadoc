@@ -1,6 +1,6 @@
 .large-hero {
     position: relative;
-    background-image: linear-gradient(180deg, $mainDarkBlue 50%, $mainLightBlue 100%);
+    background-image: linear-gradient(180deg, $primaryDark 50%, $primaryLight 100%);
 
     @mixin atSmall {
     padding: 6.5rem 0;
@@ -35,7 +35,7 @@
         text-align: center;
         font-weight: bold;
         margin-top: 2.5rem;
-        color: $mainLightBlue;
+        color: $primaryLight;
 
         @mixin atSmall {
             font-size: 1.875rem;
@@ -51,7 +51,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1.25rem;
-        color: $mainGrey;
+        color: $grey;
 
         @mixin atSmall {
             font-size: 1.25rem;

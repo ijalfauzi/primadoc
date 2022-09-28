@@ -1,6 +1,6 @@
 .site-header {
     display: block;
-    background-color: $mainDarkBlue;
+    background-color: $primaryDark;
 
     &__inner {
         display: grid;
