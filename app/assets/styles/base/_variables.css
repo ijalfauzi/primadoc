@@ -1,8 +1,8 @@
-$mainBlue: #111e64;
-$mainDarkBlue: #07124B;
-$mainLightBlue: #55b3fd;
-$mainLighterBlue: #6dcff6;
-$mainYellow: #f9ce43;
-$mainDarkYellow:#ECB913;
-$mainGrey: #f7f7f7;
-$mainWhite: #ffffff;
+$primary: #111e64;
+$primaryDark: #07124B;
+$primaryLight: #55b3fd;
+$primaryLighter: #6dcff6;
+$secondary: #f9ce43;
+$secondaryDark:#ECB913;
+$grey: #f7f7f7;
+$white: #ffffff;
