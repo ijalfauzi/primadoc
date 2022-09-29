@@ -33,6 +33,12 @@
         margin: 2rem 0 0;
     }
 
+    &--featured {
+        text-transform: capitalize;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
     &--widget {
         font-size: 1rem;
         background-color: $primaryDark;

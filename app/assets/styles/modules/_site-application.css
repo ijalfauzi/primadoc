@@ -1,3 +1,8 @@
 .site-application {
-    position: relative
+    position: relative;
+    background-image: linear-gradient($grey, $primary);
+
+    p {
+        margin-bottom: 2rem;
+    }
 }
