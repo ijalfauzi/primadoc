@@ -35,7 +35,7 @@
 
     &--widget {
         font-size: 1rem;
-        background-color: $secondary;
+        background-color: $primaryDark;
         padding:.75em 0;
         text-transform: uppercase;
        
