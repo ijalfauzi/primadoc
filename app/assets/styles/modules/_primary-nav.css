@@ -125,8 +125,12 @@
     padding: .625rem .9375rem;
   }
   .submenu-active {
-    background-color: #eee;
+    background-color: $primaryLightest;
     border-radius: 3px;
+  }
+
+  .submenu-active li a, .submenu li a {
+    color: $primaryDark;
   }
   
   /* Tablet menu */
@@ -182,7 +186,7 @@
       width: max-content;
       left:0;
       top: 94px;
-      background: #eeeeee;
+      background: $primaryLightest;
       border-top: 4px solid $primary;
       z-index: 999;
     }
