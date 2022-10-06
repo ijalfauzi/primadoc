@@ -127,6 +127,7 @@
   .submenu-active {
     background-color: $primaryLightest;
     border-radius: 3px;
+    cursor: pointer;
   }
 
   .submenu-active li a, .submenu li a {
