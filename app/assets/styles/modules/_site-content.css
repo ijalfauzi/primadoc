@@ -191,6 +191,11 @@
 	.kontainer{
 		margin-top: 20px;
 	}
+
+  .hidden {
+    display:none;
+    visibility:hidden;
+  }
 	
 	.form-cta {
 	max-width: 480px;
