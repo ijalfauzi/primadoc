@@ -70,46 +70,24 @@
                         Silakan isi form di bawah ini untuk mendownload company profile kami
                     </p>
 
-<div class="form-cta">
-<div class="kontainer">
-	<form action="" method="POST">
-		<fieldset>
-		<legend><span class="number">1</span> Contact Info</legend>
-		<input type="text" name="trap" class="hidden">
-		<input placeholder="Nama Anda *" type="text" name="log-app-name" required="" id="log-app-name"></br>
-		<input placeholder="No Telp / WhatsApp *" type="number" name="log-app-no-wa" required=""></br>
-		<input placeholder="Email *" type="email" name="log-app-email" required=""></br>
-		<input placeholder="Perusahaan / Instansi *" type="text" name="log-app-perusahaan"></br>
-		<input placeholder="Jabatan *" type="text" name="log-app-jabatan"></br>
-		</fieldset>
-		<fieldset>
-		<legend><span class="number">2</span> Additional Info</legend>
-		<select name="log-app-layanan" id="log-app-layanan" required="">
-        			<option value="" disabled selected>Pilih Layanan</option>
-					<option value="Konsultasi Arsip">Konsultasi Arsip</option>
-					<option value="Pemeliharaan Arsip">Pemeliharaan Arsip</option>
-					<option value="Alih Media Arsip">Alih Media Arsip</option>
-					<option value="Aplikasi PrimaDoc">Aplikasi PrimaDoc</option>
-					<option value="Sarana & Prasarana Arsip">Sarana & Prasarana Arsip</option>
-        			</select></br>
-		<input type="date" name="log-app-date" required="" min="<?php echo $date_now ?>"></br>
-		<select name="log-app-waktu" id="log-app-waktu" required="">
-					<option value="" disabled selected>Waktu</option>
-					<option value="09:00">09:00</option>
-					<option value="10:00">10:00</option>
-					<option value="11:00">11:00</option>
-					<option value="13:00">13:00</option>
-					<option value="14:00">14:00</option>
-					<option value="15:00">15:00</option>
-					<option value="16:00">16:00</option>
-				</select></br>
-		<br/><div class="g-recaptcha" data-sitekey="6LeYwWEeAAAAAElIl9ws8Lp7gZtyIFWDnINiougo"></div>
-		<br/>
-		<input type="submit" value="Kirim" name="log-app-form" class="submit-form-app">
-		</fieldset>
-	</form>
-</div>
-</div>
+                    <div class="form-cta">
+                        <div class="kontainer">
+                            <form action="<?php echo get_permalink(1464) ?>" method="POST">
+                                <fieldset>
+                                <legend><span class="number">1</span> Contact Info</legend>	
+                                <input type="text" name="trap" class="hidden">
+                                <input placeholder="Nama Anda *" type="text" name="name" required autocomplete="off"></br>
+                                <input placeholder="No Telepon / WhatsApp *" type="number" name="no_wa" required autocomplete="off"></br>
+                                <input placeholder="Email *" type="email" name="email" required autocomplete="off"></br>
+                                <input placeholder="Perusahaan / Instansi *" type="text" required name="perusahaan" autocomplete="off"></br>
+                                <input placeholder="Jabatan *" type="text" name="jabatan" required autocomplete="off"></br>
+                                </fieldset>
+                                <br/><div class="g-recaptcha" data-sitekey="6LeYwWEeAAAAAElIl9ws8Lp7gZtyIFWDnINiougo"></div>
+                                <br/>
+                                <input type="submit" value="Kirim" name="log-cp-form" class="submit-form-app">
+                            </form>
+                        </div>
+                    </div>
                 </div>	
             </div>
         </div>
