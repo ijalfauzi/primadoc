@@ -1,15 +1,9 @@
 .site-content {
     position: relative;
+    background: $grey;
 
     @mixin atSmall {
         padding: 6.5rem 0;
-    }
-
-    &::before {
-        position: absolute;
-        content:url(https://ijalfauzi.github.io/aviat/assets/images/hero-section-background.webp);
-        top: 0;
-        left: 0;
     }
 
     h1 {
