@@ -1,9 +1,8 @@
 .btn {
     background-color: #fff;
-    border:2px solid $primary;
     padding: .4375rem 1rem;
     color: $primary;
-    border-radius: 10px;
+    border-radius: 5px;
     display: inline-block;
 
     &:hover{
@@ -22,23 +21,21 @@
     }
 
     &--dark {
-        background-color: $primaryDark;
+        background: linear-gradient(180deg, rgba(7,18,75,.5) 0%, rgba(2,9,46,.5) 100%);
         color: $white;
-        border-color: $primaryDark;
         margin-top: 15px;
 
         &:hover {
-            background-color: $primaryDark;
+            background: linear-gradient(180deg, rgba(2,9,46,.5) 0%, rgba(7,18,75,.5) 100%);
         }
     }
 
     &--yellow {
-        background-color: $secondary;
-        border: none;
-        border: 2px solid $secondary;
+        background: $secondary;
+        background: linear-gradient(180deg, $secondary 0%, $secondaryDark 100%);
 
         &:hover {
-            background-color: $secondary;
+            background: linear-gradient(180deg, $secondaryDark 0%, $secondary 100%);
         }
     }
 
@@ -49,9 +46,4 @@
 
 a.btn--yellow {
     color: $primaryDark!important;
-
-    &:hover {
-        background-color: $secondaryDark;
-        border-color: $secondaryDark;
-    }
 }
