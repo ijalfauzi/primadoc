@@ -270,7 +270,7 @@
 	height:35px;
 }
 .form-cta .number {
-	background: $primary;
+	background: linear-gradient(180deg, rgba(7,18,75,1) 0%, rgba(2,9,46,1) 100%);
 	color: #fff;
 	height: 30px;
 	width: 30px;
@@ -291,19 +291,17 @@
 	padding: 19px 39px 18px 39px;
 	color: #FFF;
 	margin: 0 auto;
-	background: $primary;
-	font-size: 18px;
+	background: linear-gradient(180deg, rgba(7,18,75,1) 0%, rgba(2,9,46,1) 100%);
 	text-align: center;
 	font-style: normal;
 	width: 50%;
-	border: 1px solid $primaryDark;
-	border-width: 1px 1px 3px;
+  border-radius: 5px;
 	margin-bottom: 10px;
 }
 .form-cta input[type="submit"]:hover,
 .form-cta input[type="button"]:hover
 {
-	background: $primaryDark;
+	background: linear-gradient(180deg, rgba(2,9,46,1) 0%, rgba(7,18,75,1) 100%)!important;
 }
 	
 	@media only screen and (max-width:680px) {
