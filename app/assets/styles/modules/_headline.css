@@ -35,8 +35,12 @@
 
     &--featured {
         text-transform: capitalize;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+
+        @mixin atSmall {
+            margin-top: 4rem;
+        }
     }
 
     &--widget {

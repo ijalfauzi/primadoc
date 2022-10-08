@@ -28,8 +28,12 @@
   
   .clients {
     position: relative;
-    height: 414px;
+    height: 213px;
     overflow: hidden;
+
+    @mixin atSmall {
+      height: 414px;
+    }
   }
   
   .clients > img {

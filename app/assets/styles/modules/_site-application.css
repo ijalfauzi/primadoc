@@ -1,8 +1,21 @@
 .site-application {
     position: relative;
-    background-image: linear-gradient($grey, $primary);
+    background: $primary;
+    color: #ccc;
+    text-align: center;
+    padding: 2.5rem 0;
+
+    @mixin atSmall {
+        padding: 4.5rem 0;
+    }
 
     p {
         margin-bottom: 2rem;
+    }
+
+    @mixin atSmall {
+        background-image: linear-gradient($grey, $primary);
+        color: $primaryDark;
+        text-align: left;
     }
 }
