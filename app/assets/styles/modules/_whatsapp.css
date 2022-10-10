@@ -37,16 +37,25 @@ a.blantershow-chat i {
 	margin: 0 10px 0 0
 }
 
+a.blantershow-chat img {
+	position:relative;
+	transform: translate(-10%, 20%);
+
+	@mixin atSmall {
+		transform: translate(-30%, 20%);
+	}
+}
+
 .header-chat {
 	background: linear-gradient(180deg, rgba(249,206,67,1) 0%, rgba(236,185,19,1) 100%);
-	color: $grey;
+	color: $primaryDark;
 	padding: 20px
 }
 
 .header-chat h3 {
 	margin: 0 0 10px;
     font-size:3rem;
-    color: $grey;
+    color: $primaryDark;
 }
 
 .header-chat p {
@@ -98,7 +107,7 @@ span.chat-nama {
 
 #get-label,
 #get-nama {
-	color: $grey;
+	color: $primaryDark;
 }
 
 span.my-number {
