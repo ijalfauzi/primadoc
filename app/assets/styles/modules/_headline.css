@@ -38,7 +38,11 @@
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
 
-        @mixin atSmall {
+        @mixin atMedium {
+            margin-top:0;
+        }
+
+        @mixin atLarge {
             margin-top: 4rem;
         }
     }

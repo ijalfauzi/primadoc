@@ -30,8 +30,17 @@
     position: relative;
     height: 213px;
     overflow: hidden;
+    border-radius: 5px;
 
     @mixin atSmall {
+      height: 310px;
+    }
+
+    @mixin atMedium {
+      height: 293px;
+    }
+
+    @mixin atLarge {
       height: 414px;
     }
   }
@@ -42,10 +51,7 @@
     left: calc(50% - 50%);
     opacity: 0;
     animation: display 25s infinite;
-
-    @mixin atSmall {
-        left: calc(50% - 340px);
-    }
+    
   }
   
   img:nth-child(2) {

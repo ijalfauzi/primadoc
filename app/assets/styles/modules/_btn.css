@@ -20,6 +20,16 @@
         }
     }
 
+    &--featured {
+        @mixin atMedium {
+            margin-bottom: 5px;
+        }
+
+        @mixin atLarge {
+            margin: 0;
+        }
+    }
+
     &--dark {
         background: linear-gradient(180deg, rgba(7,18,75,.5) 0%, rgba(2,9,46,.5) 100%);
         color: $white;
