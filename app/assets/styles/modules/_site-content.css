@@ -203,8 +203,7 @@
 	
 	.form-cta {
 	max-width: 480px;
-	padding: 10px 20px;
-	margin: 10px auto;
+	margin: 1rem auto;
 	padding: 20px;
 	background: #f4f7f8;
 	border-radius: 8px;
@@ -212,9 +211,17 @@
 }
 
 .form-wrap {
-  padding: 20px;
-  background: #ffffff;
+  background: #f7f7f7;
   border-radius: 10px;
+}
+
+.info-wrap {
+  padding: 1rem .75rem;
+
+  @mixin atSmall {
+    padding: 4.5rem .75rem;
+    
+  }
 }
 
 .form-cta fieldset{
@@ -226,7 +233,6 @@
 	font-size: 1rem;
 	margin-bottom: 20px;
   font-weight: bold;
-  font-style: italic;
 }
 .form-cta label {
 	display: block;
