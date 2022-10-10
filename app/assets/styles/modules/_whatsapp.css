@@ -7,7 +7,7 @@
 	position: fixed;
 	background: #fff;
 	width: 350px;
-	border-radius: 10px;
+	border-radius: 5px;
 	box-shadow: 0 1px 15px rgba(32, 33, 36, .28);
 	bottom: 90px;
 	right: 30px;
@@ -196,7 +196,7 @@ a.close-chat {
 	position: absolute;
 	top: 5px;
 	right: 15px;
-	color: #fff;
+	color: $primaryDark;
 	font-size: 30px
 }
 
