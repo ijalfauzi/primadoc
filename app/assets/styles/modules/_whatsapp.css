@@ -20,7 +20,7 @@
 
 a.blantershow-chat {
 	background: linear-gradient(180deg, rgba(249,206,67,1) 0%, rgba(236,185,19,1) 100%);
-	color: #fff;
+	color: $primaryDark;
 	position: fixed;
 	z-index: 98;
 	bottom: 25px;
@@ -98,7 +98,7 @@ span.chat-nama {
 
 #get-label,
 #get-nama {
-	color: $primaryDark;
+	color: $grey;
 }
 
 span.my-number {
@@ -144,7 +144,11 @@ textarea#chat-input {
 }
 
 a#send-it {
-	background: linear-gradient(to right top, #a70000, #cc0202);
+	background: linear-gradient(180deg, rgba(249,206,67,1) 0%, rgba(236,185,19,1) 100%);
+}
+
+a#back-it {
+	background: $grey;
 }
 
 a#back-it, a#send-it {
@@ -153,10 +157,6 @@ a#back-it, a#send-it {
 	margin: 90px 0 0 5px;
 	padding: 5px 20px;
 	border-radius: 5px;
-}
-
-a#back-it {
-	background: $grey;
 }
 
 .first-msg {
