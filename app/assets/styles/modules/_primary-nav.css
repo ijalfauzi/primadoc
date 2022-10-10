@@ -208,6 +208,6 @@
   color: $primary;
 }
 
-.has-submenu a:active, .has-submenu a:focus {
+.has-submenu a:focus {
   color: $primary!important;
 }
