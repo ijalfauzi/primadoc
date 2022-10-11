@@ -4,6 +4,7 @@
     color: $primary;
     border-radius: 5px;
     display: inline-block;
+    font-weight: 500;
 
     &:hover{
         background-color: $primary;

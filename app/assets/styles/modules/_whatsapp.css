@@ -30,6 +30,7 @@ a.blantershow-chat {
 	border-radius: 10px;
 	box-shadow: 0 1px 15px rgba(32, 33, 36, .28);
 	text-decoration: none;
+	font-weight: 500;
 }
 
 a.blantershow-chat i {
@@ -166,6 +167,7 @@ a#back-it, a#send-it {
 	margin: 90px 0 0 5px;
 	padding: 5px 20px;
 	border-radius: 5px;
+	font-weight: bold;
 }
 
 .first-msg {
