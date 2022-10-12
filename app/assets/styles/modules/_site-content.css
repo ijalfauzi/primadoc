@@ -355,3 +355,16 @@
 		}
 	}
   
+.transparent {
+  background-color: transparent!important;
+}
+
+
+.service-title {
+  text-align: center;
+  padding: 10rem 0 6rem;
+  margin-top: -5.875rem;
+  background: url(https://i.ibb.co/jzJgXQK/tes.jpg);
+  color: rgba(255,255,255,.75);
+  background-size: cover;
+}
