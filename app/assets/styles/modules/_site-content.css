@@ -34,6 +34,20 @@
     a {
       color: $primaryLight;
     }
+
+    h3.footer {
+      text-align: center;
+      color: $primary;
+      margin: 1.5rem 0;
+      text-transform: uppercase;
+
+      @mixin atSmall {
+        margin: 3rem 0;
+      }
+      span {
+        color: $primaryLight;
+      }
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
@@ -170,6 +184,30 @@
     }
   }
 
+  .text-left {
+    text-align: left;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .text-justify {
+    text-align: justify;
+  }
+
+  .no-margin {
+    margin: 0 auto;
+  }
+
+  .no-padding-bt {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 
   .konsultasi {
     background: url(https://ijalfauzi.github.io/primadoc/assets/images/konsultasi-arsip-bg.webp);
@@ -386,4 +424,57 @@
 
 .s5 {
   background: url("https://ijalfauzi.github.io/primadoc/assets/images/sarana-prasarana-arsip-title.webp");
+}
+
+.layanan {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  background-color: #eee;
+
+  @mixin atSmall {
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    position: relative;
+    background-color: $primary;
+    color: $grey;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: .625rem 2rem;
+    margin-right: -2rem;
+    border-radius: 5px 0 0 5px;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 0;
+      border-width: 7.5px;
+      border-color: transparent transparent #07124B #07124B;
+      border-style: solid;
+      top: -15px;
+      right: -15px;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: $primary;
+      width: 15px;
+      height: 50px;
+      right: -15px;
+      border-radius: 0 0 5px;
+      top: 0;
+    }
+  }
+
+  img {
+    max-width: 100px;
+    float: left;
+    margin:0 1rem 1rem 0
+  }
 }
