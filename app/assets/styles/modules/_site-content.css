@@ -364,7 +364,26 @@
   text-align: center;
   padding: 10rem 0 6rem;
   margin-top: -5.875rem;
-  background: url(https://i.ibb.co/jzJgXQK/tes.jpg);
   color: rgba(255,255,255,.75);
   background-size: cover;
+}
+
+.s1 {
+  background: url("https://ijalfauzi.github.io/primadoc/assets/images/konsultasi-arsip-title.webp");
+}
+
+.s2 {
+  background: url("https://ijalfauzi.github.io/primadoc/assets/images/pemeliharaan-arsip-title.webp");
+}
+
+.s3 {
+  background: url("https://ijalfauzi.github.io/primadoc/assets/images/alih-media-arsip-title.webp");
+}
+
+.s4 {
+  background: url("https://ijalfauzi.github.io/primadoc/assets/images/aplikasi-primadoc-title.webp");
+}
+
+.s5 {
+  background: url("https://ijalfauzi.github.io/primadoc/assets/images/sarana-prasarana-arsip-title.webp");
 }
