@@ -123,8 +123,7 @@
     padding: 2rem;
     margin-bottom: 1rem;
     text-align: center;
-    background: url(https://primadoc.id/wp-content/uploads/2022/05/header-services.webp);
-    background-size: cover;
+    background-size: cover!important;
     overflow: hidden;
 
     @mixin atSmall {
@@ -160,7 +159,7 @@
       margin: 20px 0 0;
       font-size: 1rem;
       text-align: center;
-      border-radius: 5px; 
+      border-radius: 5px;
 
       @mixin atSmall {
         margin: 24px -39px 20px 0;
@@ -169,6 +168,23 @@
         transform: skewX(-15deg);
       }
     }
+  }
+
+
+  .konsultasi {
+    background: url(https://ijalfauzi.github.io/primadoc/assets/images/konsultasi-arsip-bg.webp);
+  }
+  .pemeliharaan {
+    background: url(https://ijalfauzi.github.io/primadoc/assets/images/pemeliharaan-arsip-bg.webp);
+  }
+  .alih {
+    background: url(https://ijalfauzi.github.io/primadoc/assets/images/alih-media-arsip-bg.webp);
+  }
+  .aplikasi {
+    background: url(https://ijalfauzi.github.io/primadoc/assets/images/aplikasi-primadoc-bg.webp);
+  }
+  .sarana {
+    background: url(https://ijalfauzi.github.io/primadoc/assets/images/sarana-prasarana-arsip-bg.webp);
   }
   
   /* Title of the card */
