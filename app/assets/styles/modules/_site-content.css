@@ -209,6 +209,11 @@
     padding-bottom: 0;
   }
 
+  .img-full {
+    max-width: 100%!important;
+    border-radius: 10px;
+  }
+
   .konsultasi {
     background: url(https://ijalfauzi.github.io/primadoc/assets/images/konsultasi-arsip-bg.webp);
   }
