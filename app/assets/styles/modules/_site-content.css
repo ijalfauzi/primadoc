@@ -414,7 +414,7 @@
   padding: 10rem 0 6rem;
   margin-top: -5.875rem;
   color: rgba(255,255,255,.85);
-  background-size: cover;
+  background-size: cover!important;
 }
 
 .s1 {
