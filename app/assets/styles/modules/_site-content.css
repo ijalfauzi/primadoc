@@ -33,7 +33,12 @@
 
     a {
       color: $primaryLight;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
+
 
     h3.footer {
       text-align: center;
@@ -177,7 +182,7 @@
       border-radius: 5px;
 
       @mixin atSmall {
-        margin: 24px -39px 20px 0;
+        margin: 24px -43px 20px 0;
         border-radius: 5px 0 0 5px;
         font-size: 1.25rem;
         transform: skewX(-15deg);
@@ -408,7 +413,7 @@
   text-align: center;
   padding: 10rem 0 6rem;
   margin-top: -5.875rem;
-  color: rgba(255,255,255,.75);
+  color: rgba(255,255,255,.85);
   background-size: cover;
 }
 
@@ -482,5 +487,31 @@
     max-width: 100px;
     float: left;
     margin:0 1rem 1rem 0
+  }
+}
+
+.alih-media {
+  max-width: 880px;
+  background-color: #d7e4f4;
+  margin: 0 auto;
+  padding: 2rem 5rem;
+  border-radius: 10px;
+
+  img.icon {
+    position: relative;
+    top: -4rem;
+  }
+
+  .box {
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+    @mixin atSmall {
+      margin-bottom: 0;
+    }
+
+    img {
+      max-width: 100px;
+    }
   }
 }
