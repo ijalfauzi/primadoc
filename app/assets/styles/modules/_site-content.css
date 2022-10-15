@@ -416,9 +416,13 @@
 .service-title {
   text-align: center;
   padding: 10rem 0 6rem;
-  margin-top: -5.875rem;
+  margin-top: -0;
   color: rgba(255,255,255,.85);
   background-size: cover!important;
+
+  @mixin atSmall {
+    margin-top: -5.875rem;
+  }
 }
 
 .s1 {
