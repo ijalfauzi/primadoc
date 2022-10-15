@@ -425,6 +425,10 @@
   }
 }
 
+.about {
+  background: url("https://ijalfauzi.github.io/primadoc/assets/images/header-about.webp");
+}
+
 .s1 {
   background: url("https://ijalfauzi.github.io/primadoc/assets/images/konsultasi-arsip-title.webp");
 }
