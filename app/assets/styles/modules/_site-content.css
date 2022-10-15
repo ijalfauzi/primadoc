@@ -405,7 +405,11 @@
 	}
   
 .transparent {
-  background-color: transparent!important;
+  background-color: $primary!important;
+
+  @mixin atSmall {
+    background-color: transparent;
+  }
 }
 
 
